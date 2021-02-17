@@ -1,0 +1,49 @@
+#main-doc{
+  background-image: url(https://i0.wp.com/thegrue.com/wp-content/uploads/2017/12/css-background-image-pattern-grey-light-white-color-diagonal-line-rough-wall-seamless-texture.jpg);
+}
+#top-heading{
+  font-size: 55px;
+  text-align: center;
+  background-image :linear-gradient(90deg, white, grey);
+}
+.navbar{
+  position:fixed;
+  min-width:290px;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:100%;
+  border-right:solid;
+  border-color:rgba(0,22,22,0.4);
+  background-color: white;
+  display:block;
+  
+}
+
+h1{
+  font-size: 30px;
+}
+p{
+  font-size: 18px;
+}
+li{
+  font-size: 18px;
+}
+code{
+  background-color: white;
+}
+header{
+  text-decoration:underline;
+  font-size: 20px;
+  height: 100%;
+}
+.main-body{
+  position:relative;
+  left: 300px;
+  max-width: 1100px;
+}
+@media screen and (min-width: 480px){
+  h1{
+    43px;
+  }
+}
